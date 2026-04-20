@@ -46,79 +46,50 @@ Step 10:
 Drop selected columns and prepare cleaned data. 
 
 📂 Project Structure
-                 ┌──────────────────────┐
-                 │   Start Project      │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Import Libraries     │
-                 │ Pandas, NumPy,       │
-                 │ Matplotlib, Seaborn  │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Load Wine Dataset    │
-                 │ CSV File into DF     │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Data Inspection      │
-                 │ head(), shape(),     │
-                 │ info(), describe()   │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Data Cleaning        │
-                 │ Null Check           │
-                 │ Duplicate Check      │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Outlier Detection    │
-                 │ Z-Score Method       │
-                 │ IQR Method           │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Outlier Treatment    │
-                 │ Capping Values       │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Data Transformation  │
-                 │ Log Transformation   │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Data Visualization   │
-                 │ Histogram, Boxplot   │
-                 │ Scatter, Bubble etc. │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Feature Selection    │
-                 │ Drop Columns         │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Final Clean Dataset  │
-                 │ Ready for ML Model   │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │      End Project     │
-                 └──────────────────────┘ 
+    Start Project
+   ↓
+Import Libraries
+(Pandas, NumPy, Matplotlib, Seaborn)
+
+   ↓
+Load Wine Dataset
+(CSV File into DataFrame)
+
+   ↓
+Data Inspection
+(head(), shape(), info(), describe())
+
+   ↓
+Data Cleaning
+(Check Null Values, Duplicates)
+
+   ↓
+Outlier Detection
+(Z-Score Method, IQR Method)
+
+   ↓
+Outlier Treatment
+(Capping Extreme Values)
+
+   ↓
+Data Transformation
+(Log Transformation)
+
+   ↓
+Data Visualization
+(Histogram, Boxplot, Scatter Plot, Bubble Chart)
+
+   ↓
+Feature Selection
+(Drop Unwanted Columns)
+
+   ↓
+Final Clean Dataset
+(Ready for Machine Learning)
+
+   ↓
+End Project          
+            
 🛠 Technologies Used
 Python
 Jupyter Notebook
